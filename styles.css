@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 150vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/*header styles*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    background-color: #1f2937;
+    padding: 16px;
+}
+
+header>div {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/*main styles*/
+main,
+.top,
+.middle,
+.bottom,
+.sign-up {
+    flex: 1;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+/*top div styles*/
+.top {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px; 
+    font-size: 18px;
+}
+
+.top-left,
+.image {
+    height: 225px;
+    width: 450px;
+}
+
+.top-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.top-left > button {
+    align-self: flex-start;
+    padding: 10px 15px;
+    font-size: 20px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    box-shadow: none;
+    border-radius:7%;
+}
+
+.top-bold {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1;
+    color: #f9faf8;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+/*middle div styles*/
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.mid-heading {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.mid-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: tomato;
+}
+
+.card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+/*bottom div styles*/
+.bottom {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*sign-up div styles*/
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-block {
+    display: flex;
+    justify-content: center;
+    background-color: #3882f6;
+    padding: 20px 16px;
+}
+
+.sign-up-block>button {
+    align-self: flex-end;
+    background-color: #3882f6;
+    color: white;
+    border: solid white;
+    border-radius: 5%;
+    padding: 5px;
+}
+
+/*footer content styles*/
+footer {
+    background-color: #1f2937;
+    color: white;
+    padding: 12px;
+}
